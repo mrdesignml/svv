@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(255, 255, 246);
+  }
+
+
+  .container{
+    max-width: 704px;
+    height: 2005px;
+    margin-left: 25%;
+    padding: 6px;
+    border-radius: 15px;
+    background-color: #fbf6ef;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px 
+    
+}
+h4{
+    margin-bottom: 10px;
+    font-size: 45px;
+    color: rgb(51, 49, 49);
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+    width: 97%;
+    padding: 10px;
+    height: 39px;
+    margin-bottom: 24px;
+}
+textarea{
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 24px;
+}
+#submit{
+    border: none;
+    background-color: orangered;
+    color: white;
+    width: 200px;
+    border-radius: 5px;
+}
+#submit:hover{
+    background-color: #ff0202;
+    
+}
+.box{
+    border-radius: 14px;
+    background-color: rgb(254, 254, 254);
+}
+.options{
+    border-radius: 15px;
+}
+select{
+    width: 100%;
+    height:60px;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    background-color: white;
+}
+p{
+    color: red;
+}
+img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 695px) {
+    body {
+        background-color: #fbf6ef;
+}
+.container{
+    max-width: 100%;
+    height: 1995px;
+    margin: 0;
+    padding: 6px;
+    padding-right: 10px;
+    border-radius: 15px;
+    background-color: #fbf6ef;
+    box-shadow: rgba(66, 200, 68, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px;
+}
+input{
+ width: 96%;
+ 
+}
+textarea{
+    width: 96%;
+}
+select{
+    width: 100%;
+}
+    
+}
+
