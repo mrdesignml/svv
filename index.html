@@ -59,5 +59,27 @@
         </form>
         <img src="addres.jpg" alt="">
     </div>
+
+    <script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbwUHLdn7dgIGb_DzY0PQQuuVo-ksTimmegz3TIR3mqXIGRmBqRJgcNcfYccEWRoHW1I2Q/exec",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    </script>
+    <script src="googlesheet.js"></script>
+    
 </body>
 </html>
