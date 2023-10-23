@@ -5,7 +5,7 @@ body {
 
   .container{
     max-width: 704px;
-    height: 2095px;
+    height: 2005px;
     margin-left: 25%;
     padding: 6px;
     border-radius: 15px;
@@ -63,7 +63,7 @@ img{
     width: 100%;
 }
 
-@media only screen and (max-width: 695px) {
+@media only screen and (max-width: 995px) {
     body {
         background-color: #fbf6ef;
 }
